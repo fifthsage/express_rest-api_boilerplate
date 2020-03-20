@@ -1,0 +1,7 @@
+{
+  "**/*.ts": [
+    "eslint --fix",
+    "git add",
+    "jest -c jest.config.unit.js -u --bail --findRelatedTests"
+  ]
+}
